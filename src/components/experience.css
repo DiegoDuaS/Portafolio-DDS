@@ -1,0 +1,28 @@
+.experience-card{
+    border: white 2px solid;
+    width: 1000px;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #0a34a5;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+h3{
+    margin-bottom: 0;
+    font-size: 1.5em;
+}
+
+h4{
+    font-weight: lighter;
+    margin-top: 5px;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.jobdes{
+    font-size: 1.2em;
+}

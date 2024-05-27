@@ -2,6 +2,7 @@ import './header.css'
 import spotifyIcon from '../images/spotify.png';
 import linkedinIcon from '../images/linkedin.png';
 import githubIcon from '../images/github.png';
+import { ButtonBack } from './mainpagebutton';
 
 function Header({message, type}) {
 
@@ -33,6 +34,7 @@ function Header({message, type}) {
 
     return (
         <header className={`fixed-header ${headerClass}`}>
+            {headerClass !== 'header-type1' && <ButtonBack />}
             <h2 className='introduction'>{message}</h2>
             <div className='link-container'>
                 <a className={`links ${aClass}`} href="https://open.spotify.com/user/diego.slowing?si=fd01cd00641449a0" target="_blank">

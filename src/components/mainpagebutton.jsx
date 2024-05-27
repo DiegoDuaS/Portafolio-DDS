@@ -1,6 +1,7 @@
 import { motion } from "framer-motion"
 import './buttons.css'
 import { useNavigate } from 'react-router-dom';
+import { IoChevronBack } from "react-icons/io5";
 
 export const ButtonSkyBlue = () => {
   const navigate = useNavigate();
@@ -73,6 +74,25 @@ export const ButtonPurlpe = () => {
       onClick={handleClick}
     >
       PROYECTS
+    </motion.button>
+  )
+}
+
+export const ButtonBack = () => {
+  const navigate = useNavigate();
+  let iconStyles = { color: "black", fontSize: "1.3em" };
+
+  const handleClick = () => {
+    navigate('/home'); 
+  }
+
+  return (
+    <motion.button 
+      className="backbutton"
+      whileTap={{ scale: 0.9 }}
+      onClick={handleClick}
+    >
+      <IoChevronBack style={iconStyles}/>
     </motion.button>
   )
 }

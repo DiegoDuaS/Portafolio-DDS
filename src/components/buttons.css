@@ -34,6 +34,31 @@ button{
     }
 }
 
+.backbutton{
+    position: fixed;
+    left: 0;
+    top: 50px;
+    height: 100px;
+    width: 100px;
+    border-radius: 0 20px 20px 0px;
+    background-color: white;
+    border: none;
+}
+
+.backbutton:hover{
+    animation: pullup 1s linear 2;
+}
+
+@keyframes pullup {
+    0%, 100% {
+        transform: translateX(0);
+    }
+
+    50% {
+        width: 200px;
+    }
+}
+
 
 .sky-blue{
     background-image: radial-gradient(circle at top left, #3DBFF2 30%, #0da4df 70%);
@@ -50,9 +75,6 @@ button{
 
 .blue{
     background-image: radial-gradient(circle at top left, #3d64f2 30%, #0d68df 70%);
-    width: 230px;
-    height: 230px;
-    border-radius: 130px;
     border: none;
     color: #0d68df;
     animation: updown2 2s linear infinite;
