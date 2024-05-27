@@ -1,0 +1,34 @@
+.fixed-header {
+    background-color: #1771BF;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 200px; /* Increase height to accommodate the new header structure */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left:  20px; /* Adjust padding for better spacing */
+    padding-right:20px;
+}
+
+.introduction{
+    font-size: 4em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.link-container{
+    flex-direction: row;
+    justify-content: space-around;
+    width: 200px;
+}
+
+.link-icon{
+    width: 40px;
+    height: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+}

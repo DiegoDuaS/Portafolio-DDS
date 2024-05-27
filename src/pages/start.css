@@ -16,4 +16,6 @@
     height: 50px;
     font-size: 1.3em;
     animation: tint 2s infinite; /* Inicia la animación de destello */
+    border-radius: 10px;
+    cursor: pointer;
   }
