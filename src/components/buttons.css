@@ -8,18 +8,44 @@
   justify-content: center
 }
 
-
-.sky-blue{
-    background-image: radial-gradient(circle at top left, #3DBFF2 30%, #0da4df 70%);
+button{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3em;
     width: 230px;
     height: 230px;
     border-radius: 130px;
-    border: none;
-    color: #0da4df ;
 }
 
-.sky-blue:hover{
-    color:white;
+@keyframes updown1 {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(50px); 
+    }
+}
+
+@keyframes updown2 {
+    0%, 100% {
+        transform: translateY(50px);
+    }
+    50% {
+        transform: translateY(0px); 
+    }
+}
+
+
+.sky-blue{
+    background-image: radial-gradient(circle at top left, #3DBFF2 30%, #0da4df 70%);
+    border: none;
+    color: #0da4df ;
+    transition: color 0.3s ease;
+    animation: updown1 2s linear infinite;
+}
+
+.sky-blue:hover {
+    color: white;
+    animation: none;
 }
 
 .blue{
@@ -29,10 +55,12 @@
     border-radius: 130px;
     border: none;
     color: #0d68df;
+    animation: updown2 2s linear infinite;
 }
 
 .blue:hover{
     color:white;
+    animation: none;
 }
 
 .aqua{
@@ -42,10 +70,12 @@
     border-radius: 130px;
     border: none;
     color: #0ddfae;
+    animation: updown2 2s linear infinite;
 }
 
 .aqua:hover{
     color:white;
+    animation: none;
 }
 
 .purple{
@@ -55,10 +85,12 @@
     border-radius: 130px;
     border: none;
     color: #570ddf;
+    animation: updown1 2s linear infinite;
 }
 
 .purple:hover{
     color:white;
+    animation: none;
 }
 
 

@@ -14,6 +14,27 @@
     padding-right:20px;
 }
 
+.header-type1 {
+    background-color: #1771BF;
+}
+
+.header-type2 {
+    background-color: #0ddfae;
+}
+
+.header-type3 {
+    background-color: #570ddf;
+}
+
+.header-type4 {
+    background-color: #0d68df;
+}
+
+.header-type5 {
+    background-color: #0da4df;
+}
+
+
 .links{
     height: 50px;
     width: 50px;
@@ -23,12 +44,31 @@
     align-items: center;
     padding-left: 15px;
     padding-right: 15px;
-}
-
-.links:hover{
-    background-color: #165F8C;
     border-radius: 5px;
 }
+
+.a-type1:hover{
+    background-color: #165F8C;
+    
+}
+
+.a-type2:hover{
+    background-color: #0bbb92;
+}
+
+.a-type3:hover{
+    background-color:  #4009a8;
+}
+
+.a-type4:hover{
+    background-color: #0a51ac;
+}
+
+.a-type5:hover{
+    background-color: #0b83b2;
+}
+
+
 
 
 

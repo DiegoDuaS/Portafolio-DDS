@@ -2,7 +2,7 @@ import { motion } from "framer-motion"
 import './main.css'
 import Header from "../components/header"
 
-function AboutMePage() {
+function ExperiencePage() {
 
     return (
       <>
@@ -11,11 +11,11 @@ function AboutMePage() {
             animate={{opacity: 1}}
             exit={{opacity: 0}}
         > 
-            <Header message={'About Me'} type={'type2'}></Header>
+            <Header message={'Experience'} type={'type4'}></Header>
         </motion.div>
         
       </>
     )
   }
   
-  export default AboutMePage
+  export default ExperiencePage
