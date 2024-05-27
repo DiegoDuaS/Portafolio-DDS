@@ -9,28 +9,56 @@
 }
 
 
-.red{
-    background-color: #DC143C;
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    animation: redblob 4s infinite;
+.sky-blue{
+    background-image: radial-gradient(circle at top left, #3DBFF2 30%, #0da4df 70%);
+    width: 230px;
+    height: 230px;
+    border-radius: 130px;
+    border: none;
+    color: #0da4df ;
+}
+
+.sky-blue:hover{
+    color:white;
 }
 
 .blue{
-  background-color: #4169E1;
-  width: 100px;
-  height: 100px;
-  border-radius: 50px;
-  animation: redblob 4s infinite;
+    background-image: radial-gradient(circle at top left, #3d64f2 30%, #0d68df 70%);
+    width: 230px;
+    height: 230px;
+    border-radius: 130px;
+    border: none;
+    color: #0d68df;
 }
 
-.green{
-  background-color: rgb(45, 239, 42);
-  width: 100px;
-  height: 100px;
-  border-radius: 50px;
-  animation: redblob 4s infinite;
+.blue:hover{
+    color:white;
+}
+
+.aqua{
+    background-image: radial-gradient(circle at top left, #3df2e6 30%, #0ddfae 70%);
+    width: 230px;
+    height: 230px;
+    border-radius: 130px;
+    border: none;
+    color: #0ddfae;
+}
+
+.aqua:hover{
+    color:white;
+}
+
+.purple{
+    background-image: radial-gradient(circle at top left, #6a3df2 30%, #570ddf 70%);
+    width: 230px;
+    height: 230px;
+    border-radius: 130px;
+    border: none;
+    color: #570ddf;
+}
+
+.purple:hover{
+    color:white;
 }
 
 

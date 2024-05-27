@@ -1,6 +1,6 @@
 import { motion } from "framer-motion"
 import './main.css'
-import { ButtonRed, ButtonBlue, ButtonGreen } from "../components/mainpagebutton"
+import { ButtonBlue, ButtonPurlpe, ButtonAqua, ButtonSkyBlue } from "../components/mainpagebutton"
 import Header from "../components/header"
 
 function MainPage() {
@@ -12,10 +12,13 @@ function MainPage() {
             animate={{opacity: 1}}
             exit={{opacity: 0}}
         > 
-            <Header></Header>
-            <ButtonRed></ButtonRed>
-            <ButtonGreen></ButtonGreen>
-            <ButtonBlue></ButtonBlue>
+            <Header message={'Hello! Im Diego Duarte Slowing'} type={'M'}></Header>
+            <div className="button-holder">
+              <ButtonAqua></ButtonAqua>
+              <ButtonPurlpe></ButtonPurlpe>
+              <ButtonBlue></ButtonBlue>
+              <ButtonSkyBlue></ButtonSkyBlue>
+            </div>
         </motion.div>
         
       </>
