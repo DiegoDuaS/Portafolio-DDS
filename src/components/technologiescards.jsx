@@ -65,7 +65,7 @@ export const TechCard = ({Title}) => {
         {icons.map((icon, index) => (
           <div key={index} className='icon-wrapper'>
             <img src={icon.src} alt={icon.alt} className='tech-icon' />
-            <p>{icon.alt}</p>
+            <p className='tech-name'>{icon.alt}</p>
           </div>
         ))}
         </div>

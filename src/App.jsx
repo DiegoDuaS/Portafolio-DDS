@@ -6,9 +6,9 @@ import AnimatedRoutes from './components/animatedroutes'
 function App() {
   return (
     <>
-      <Router>
-        <AnimatedRoutes></AnimatedRoutes>
-      </Router>
+        <Router>
+          <AnimatedRoutes></AnimatedRoutes>
+        </Router>
     </>
   )
 }

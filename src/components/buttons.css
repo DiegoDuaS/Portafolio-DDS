@@ -38,7 +38,7 @@ button{
     position: fixed;
     left: 0;
     top: 50px;
-    height: 100px;
+    height: 70px;
     width: 100px;
     border-radius: 0 20px 20px 0px;
     background-color: white;
@@ -88,9 +88,6 @@ button{
 
 .aqua{
     background-image: radial-gradient(circle at top left, #3df2e6 30%, #0ddfae 70%);
-    width: 230px;
-    height: 230px;
-    border-radius: 130px;
     border: none;
     color: #0ddfae;
     animation: updown2 2s linear infinite;
@@ -103,9 +100,6 @@ button{
 
 .purple{
     background-image: radial-gradient(circle at top left, #6a3df2 30%, #570ddf 70%);
-    width: 230px;
-    height: 230px;
-    border-radius: 130px;
     border: none;
     color: #570ddf;
     animation: updown1 2s linear infinite;
@@ -116,5 +110,13 @@ button{
     animation: none;
 }
 
+
+@media (max-width: 1000px) {
+    button{
+        font-size: 1em;
+        width: 100px;
+        height: 100px
+    }
+  }
 
 

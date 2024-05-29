@@ -26,10 +26,11 @@ function ProyectsPage() {
             animate={{opacity: 1}}
             exit={{opacity: 0}}
         > 
-            <Header message={'Projects'} type={'type3'}></Header>
+            
             <div className="proyects">
               <ImageCarousel slides={slides} />
             </div>
+            <Header message={'Projects'} type={'type3'}></Header>
         </motion.div>
       
       </>

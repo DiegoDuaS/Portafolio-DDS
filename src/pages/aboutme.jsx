@@ -12,7 +12,6 @@ function AboutMePage() {
             animate={{opacity: 1}}
             exit={{opacity: 0}}
         > 
-            <Header message={'About Me'} type={'type2'}></Header>
             <div className="main-info">
               <img src={Photo} className="me-photo"></img>
               <div className="aboutme">
@@ -20,6 +19,7 @@ function AboutMePage() {
                 <p className="metext">In my portfolio, I am excited to showcase some of the projects I am most proud of, and also a glimpse of my personality. You can find links to my Spotify, LinkedIn, and GitHub profiles up top.</p>
               </div>
             </div>
+            <Header message={'About Me'} type={'type2'}></Header>
         </motion.div>
         
       </>

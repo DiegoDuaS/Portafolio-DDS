@@ -1,6 +1,6 @@
 .experience-card{
     border: white 2px solid;
-    width: 1000px;
+    width: 70%;
     min-height: 100px;
     display: flex;
     flex-direction: column;
