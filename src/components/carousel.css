@@ -1,0 +1,40 @@
+.slide-container{
+    width: 1000px;
+    height: 600px;
+}
+
+.slide-image{
+    width:100%;
+    height: 300px;
+    cursor: pointer;
+}
+
+.info-container{
+    width: 100%;
+    height: 200px;
+    background-color: #570ddf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.proyect-title{
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 2.1em;
+}
+
+.slick-slider.slick-initialized {
+    height: 500px;
+    width: 1000px;
+}
+
+.slick-dots li button:before {
+    color: rgb(255, 255, 255);
+  }
+
+.proyect-des{
+    font-size: 1.1em;
+    margin-right: 20px;
+    margin-left: 20px;
+}

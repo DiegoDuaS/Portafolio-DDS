@@ -73,7 +73,7 @@ export const ButtonPurlpe = () => {
       whileTap={{ scale: 0.9 }}
       onClick={handleClick}
     >
-      PROYECTS
+      PROJECTS
     </motion.button>
   )
 }

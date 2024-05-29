@@ -1,0 +1,27 @@
+.tech-card{
+    height: 60%;
+    color: white;
+    width: 300px;
+    border: white 2px solid;
+    background-color: #1b1b1b;
+    border-radius: 20px;
+}
+
+.tech-card:hover{
+    box-shadow: 0 4px 8px rgba(78, 190, 250, 0.901);
+}
+
+.tech-icon{
+    width: 45px;
+    height: 45px;
+}
+
+.icons-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.icon-wrapper{
+    width: 33%;
+}

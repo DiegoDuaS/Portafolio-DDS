@@ -21,25 +21,26 @@
 }
 
 .main-info{
-    position: relative;
+    color: #fff;
+    position: fixed;
     width: 100%;
+    top: 400px;
     left: 0;
-    height: auto; /* Increase height to accommodate the new header structure */
+    height: 200px; /* Increase height to accommodate the new header structure */
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    justify-content: space-evenly;
-    top: 100px;
-    
-    padding-left:  20px; /* Adjust padding for better spacing */
-    padding-right:20px;
+    padding-left:200px; /* Adjust padding for better spacing */
+    padding-right:200px;
 }
 
 .aboutme{
     display: flex;
+    position: relative;
     flex-direction: column;
-    margin-left: 50px;
+    margin-left: 100px;
+    margin-right: 300px;
 }
 
 .me-photo{
@@ -60,5 +61,33 @@
     width: 100%;
     top: 250px;
     align-items: center;
+}
+
+.proyects{
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 230px;
+    left: 0;
+    height: 500px; /* Increase height to accommodate the new header structure */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.technologies{
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 100px;
+    left: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left:  20px; /* Adjust padding for better spacing */
+    padding-right:20px;
 }
 

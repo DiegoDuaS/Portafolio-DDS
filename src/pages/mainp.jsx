@@ -1,6 +1,6 @@
 import { motion } from "framer-motion"
 import './main.css'
-import { ButtonBlue, ButtonPurlpe, ButtonAqua, ButtonSkyBlue } from "../components/mainpagebutton"
+import { ButtonBlue, ButtonPurlpe, ButtonAqua, ButtonSkyBlue } from "../components/buttons"
 import Header from "../components/header"
 
 function MainPage() {

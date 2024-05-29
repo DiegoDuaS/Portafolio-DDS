@@ -2,7 +2,7 @@ import './header.css'
 import spotifyIcon from '../images/spotify.png';
 import linkedinIcon from '../images/linkedin.png';
 import githubIcon from '../images/github.png';
-import { ButtonBack } from './mainpagebutton';
+import { ButtonBack } from './buttons';
 
 function Header({message, type}) {
 
