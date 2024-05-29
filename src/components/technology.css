@@ -1,7 +1,7 @@
 .tech-card{
-    height: 60%;
+    height: 470px;
     color: white;
-    width: 300px;
+    width: 250px;
     border: white 2px solid;
     background-color: #1b1b1b;
     border-radius: 20px;
@@ -23,7 +23,7 @@
     justify-content: center;
 }
 .icon-wrapper{
-    width: 33%;
+    width: 50%;
 }
 
 .tech-name{

@@ -11,13 +11,15 @@ function TechnologiesPage() {
             animate={{opacity: 1}} 
             exit={{opacity: 0}} 
         > 
-            <Header message={'Technologies'} type={'type5'}></Header> 
             <div className="technologies">
-              <TechCard Title={'Frontend'}></TechCard>
-              <TechCard Title={'Backend'}></TechCard>
-              <TechCard Title={'DataBase'}></TechCard>
-              <TechCard Title={'Tools'}></TechCard>
+              <div className="box-tech">
+                <TechCard Title={'Frontend'}></TechCard>
+                <TechCard Title={'Backend'}></TechCard>
+                <TechCard Title={'DataBase'}></TechCard>
+                <TechCard Title={'Tools'}></TechCard>
+              </div>
             </div>
+            <Header message={'Technologies'} type={'type5'}></Header> 
         </motion.div>
         
       </>
