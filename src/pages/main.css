@@ -24,15 +24,16 @@
     color: #fff;
     position: fixed;
     width: 100%;
-    top: 400px;
+    top: 200px;
     left: 0;
-    height: 200px; /* Increase height to accommodate the new header structure */
+    height: 70%; /* Increase height to accommodate the new header structure */
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding-left:200px; /* Adjust padding for better spacing */
     padding-right:200px;
+    overflow-y: scroll;
 }
 
 .aboutme{
@@ -41,15 +42,19 @@
     flex-direction: column;
     margin-left: 100px;
     margin-right: 300px;
+    margin-bottom: 50px;
+    margin-top: 80px;
 }
 
 .me-photo{
    border-radius: 100px; 
    border-right: 50px;
+   width: 300px
 }
 
 .metext{
-    font-size: 1.5em;
+    font-size: 1.3em;
+    
 }
 
 .card-holder{
@@ -61,15 +66,16 @@
     width: 100%;
     top: 250px;
     align-items: center;
+    padding-bottom: 20px;
 }
 
 .proyects{
     color: #fff;
     position: fixed;
     width: 100%;
-    top: 230px;
+    top: 250px;
     left: 0;
-    height: 500px; /* Increase height to accommodate the new header structure */
+    height: 450px; /* Increase height to accommodate the new header structure */
     display: flex;
     flex-direction: row;
     justify-content: center;
