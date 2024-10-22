@@ -8,11 +8,11 @@ const ImageCarousel = ({ slides }) => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 1000,
+    speed: 2000,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 10000,
   };
 
   const handleClick = () => {

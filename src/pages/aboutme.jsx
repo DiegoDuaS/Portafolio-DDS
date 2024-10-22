@@ -1,7 +1,7 @@
 import { motion } from "framer-motion"
 import './main.css'
 import Header from "../components/header"
-import Photo from '../images/mecropped.png'
+import Photo from '../images/mecropped2.png'
 
 function AboutMePage() {
 
