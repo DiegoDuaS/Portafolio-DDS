@@ -12,13 +12,14 @@ function MainPage() {
             animate={{opacity: 1}}
             exit={{opacity: 0}}
         > 
-            <Header message={'Hello! Im Diego Duarte Slowing'} type={'type1'}></Header>
+           
             <div className="button-holder">
               <ButtonAqua></ButtonAqua>
               <ButtonPurlpe></ButtonPurlpe>
               <ButtonBlue></ButtonBlue>
               <ButtonSkyBlue></ButtonSkyBlue>
             </div>
+            <Header message={'Hello! Im Diego Duarte Slowing'} type={'type1'}></Header>
         </motion.div>
         
       </>
