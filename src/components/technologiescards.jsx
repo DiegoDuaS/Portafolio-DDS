@@ -17,6 +17,10 @@ import Python from '../icons/python.png'
 import ReactLogo from '../icons/react.png'
 import Vercel from '../icons/vercel.png'
 import ViteLogo from '../icons/vite.png'
+import AWS from '../icons/aws.png'
+import CSharp from '../icons/c++.png'
+import Mongo from '../icons/mongo.png'
+import N4J from '../icons/n4j.png'
 
 const getIconsByCategory = (category) => {
     const iconMap = {
@@ -34,17 +38,21 @@ const getIconsByCategory = (category) => {
         { src: Express, alt: 'Express' },
         { src: Java, alt: 'Java' },
         { src: Python, alt: 'Python' },
+        { src: CSharp, alt: 'C++' },
       ],
       DataBase: [
         { src: MySQL, alt: 'MySQL' },
         { src: Postgres, alt: 'PostgreSQL' },
         { src: Firebase, alt: 'Firebase' },
+        { src: Mongo, alt: 'MongoDB' },
+        { src: N4J, alt: 'Neo4J' },
       ],
       Tools: [
         { src: Docker, alt: 'Docker' },
         { src: Git, alt: 'Git' },
         { src: Github, alt: 'Github' },
         { src: Vercel, alt: 'Vercel' },
+        { src: AWS, alt: 'AWS' },
         
       ],
     };
