@@ -2,6 +2,7 @@ import { motion } from "framer-motion"
 import './main.css'
 import Header from "../components/header"
 import ImageCarousel from "../components/carousel"
+import Aguatesa from "../images/aguatesa.png"
 import Diorama from '../images/minecraft.png'
 import Steam from '../images/steam.png'
 import Chefcito from '../images/chefcito.png'
@@ -12,7 +13,7 @@ import ElFogon from '../images/elfogon.png'
 function ProyectsPage() {
 
   const slides = [
-    { image: ElFogon, title: 'AguaPro', description: `Aguapro is an online store designed to cater to the specific needs of Aguatesa. As a key contributor to the development team, I played a significant role in shaping the user experience (UX) and user interface (UI) of the platform.`, link: 'https://aguatesa.com' },
+    { image: Aguatesa, title: 'AguaPro', description: `Aguapro is an online store designed to cater to the specific needs of Aguatesa. As a key contributor to the development team, I played a significant role in shaping the user experience (UX) and user interface (UI) of the platform.`, link: 'https://aguatesa.com' },
     { image: ElFogon, title: 'El Fogon Dorado', description: `The "El Fogón Dorado" project is a restaurant management application developed using React and Express.js. It aims to streamline restaurant operations, enhance user experience, and provide efficient management tools for staff and customers.`, link: 'https://github.com/DiegoDuaS/RestaurantSystem' },
     { image: Diorama, title: 'Minecraft Diorama', description: `The "Minecraft Diorama" project is a visually stunning diorama themed around Minecraft, developed using Rust. It showcases advanced ray tracing techniques to create realistic lighting and shadows, immersing viewers in a beautifully crafted Minecraft-inspired environment.`, link: 'https://github.com/DiegoDuaS/MinecraftDiorama'},
     { image: Whatsapp, title: 'WhatsApp Pay', description: 'Conceptual design created in Figma for a fictional feature addition to WhatsApp that enables users to make payments directly through the app.', link: 'https://www.figma.com/proto/d5UgpGZCWLlFLLHouOfZv9/Whatsapp-pay?node-id=0-2&node-type=canvas&t=tmgZtx4binwcP7yp-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=0%3A2'},
